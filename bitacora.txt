@@ -1,7 +1,7 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):  			            %%
+%% Alumno (Apellidos, Nombre):  Gimeno Corbella, Celso 	 	    %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
@@ -15,3 +15,27 @@
 (27)	git tag RespuestaPreguntaFusion
 (28)	git pull
 	git push
+
+(7)	git add bitacora.txt
+(8)	git commit -m "Paso 08"
+(9) 	git checkout Historia001
+
+(13)	git add bitacora.txt
+(14)	git commit -m "Paso 14"
+(15)	git checkout Historia001
+(16)	git stash apply
+
+(3)	git branch Historia000
+(4)	git branch Historia001
+(5)	git checkout Historia000
+
+(11)	git stash
+	git checkout Historia000
+
+(19)	git commit -m "Paso 19"		Ha habido conflictos. Recursiva.
+(20)	git merge Historia000
+
+(30)	git add bitacora.txt
+	git commit -m "Paso 30"
+(31)	git merge Historia001		Recursiva.
+
