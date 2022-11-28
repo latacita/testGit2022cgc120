@@ -10,3 +10,8 @@
 (24)	git checkout master
 
 					Una incorporación ahora se haría fast-forward
+(26)	git add bitacora.txt
+	git commit -m "Paso 26"
+(27)	git tag RespuestaPreguntaFusion
+(28)	git pull
+	git push
